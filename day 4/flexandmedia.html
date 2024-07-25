@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .a{
+            display: flex;
+        }
+        @media screen and (max-width:600px) {
+            .a{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                
+            }
+            
+        }
+       
+        
+        @media screen and (max-width:300px) {
+                .a{
+                    display: grid;
+                    grid-template-columns: auto auto;
+
+                }
+                
+            }
+        @media screen and (max-width:100px) {
+                .a{
+                    display: grid;
+                    grid-template-columns: auto;
+
+                }
+                
+            }
+
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div>
+            <img src="https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg">
+        </div>
+        <div>
+            <img src="https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg">
+        </div><div>
+            <img src="https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg">
+        </div>
+        <div>
+            <img src="https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg">
+        </div>
+    </div>
+</body>
+</html>
